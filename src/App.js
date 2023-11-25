@@ -22,9 +22,10 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/"> Home </Link>
+        <Link to="/"> Home</Link>
 
         {!isAuth ? (
+          
           <Link to="/Login1"> Login </Link>
         ) : (
           <>

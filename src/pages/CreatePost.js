@@ -27,6 +27,7 @@ function CreatePost({ isAuth }) {
   }, [isAuth,navigate]);
 
   return (
+    
     <div className="createPostPage">
       <div className="cpContainer">
         <h1>Create A Post</h1>
@@ -49,6 +50,7 @@ function CreatePost({ isAuth }) {
           />
         </div>
         <button onClick={createPost}> Submit Post</button>
+        
       </div>
     </div>
   );

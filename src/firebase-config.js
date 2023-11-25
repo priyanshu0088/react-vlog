@@ -7,16 +7,17 @@ import { getAuth,GoogleAuthProvider } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// 
 const firebaseConfig = {
-  apiKey: "AIzaSyDX8SuNX4p2-9J1pjQ2wnzMtJ1i_O3af_4",
-  authDomain: "minor-blog.firebaseapp.com",
-  projectId: "minor-blog",
-  storageBucket: "minor-blog.appspot.com",
-  messagingSenderId: "266321427646",
-  appId: "1:266321427646:web:13777e0dc9286fcda272ef"
+  apiKey: "AIzaSyCRFzbXb-jK3fkDbCmGURbqKb-cppeai7w",
+  authDomain: "auth-blog-5bf33.firebaseapp.com",
+  projectId: "auth-blog-5bf33",
+  storageBucket: "auth-blog-5bf33.appspot.com",
+  messagingSenderId: "334851178857",
+  appId: "1:334851178857:web:f70f30b06116bae7cd7df8"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
